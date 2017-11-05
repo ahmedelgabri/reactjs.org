@@ -79,7 +79,11 @@ module.exports = {
       resolve: 'gatsby-plugin-klipse',
       options: {
         classPrefix: 'gatsby-code-',
-      }
+        externalScripts: [
+          'https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react-with-addons.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react-dom.js',
+        ],
+      },
     },
     {
       resolve: 'gatsby-plugin-feed',

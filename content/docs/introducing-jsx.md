@@ -19,7 +19,7 @@ It is called JSX, and it is a syntax extension to JavaScript. We recommend using
 JSX produces React "elements". We will explore rendering them to the DOM in the [next section](/docs/rendering-elements.html). Below, you can find the basics of JSX necessary to get you started.
 
 
-<pre class="hidden"><code class="gatsby-code-klipse-eval-js" data-external-libs="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react-with-addons.js, https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react-dom.js">
+<pre class="hidden"><code class="gatsby-code-klipse-eval-js">
 !!React
 </code></pre>
 
